@@ -1,0 +1,83 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #07080a; }
+    .grid { stroke: #1b1f27; stroke-width: 1; }
+    .muted { fill: #6f7787; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .soft { fill: #a8b0c3; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .main { fill: #e8edf7; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 600; }
+    .line { stroke: #3b4457; stroke-width: 1.5; }
+    .accent { stroke: #9db7ff; stroke-width: 1.5; }
+    .thin { stroke: #596273; stroke-width: 1; }
+  </style>
+
+  <rect class="bg" width="1200" height="560"/>
+
+  <!-- subtle blueprint grid -->
+  <g opacity="0.55">
+    <path class="grid" d="M80 0V560"/>
+    <path class="grid" d="M160 0V560"/>
+    <path class="grid" d="M240 0V560"/>
+    <path class="grid" d="M320 0V560"/>
+    <path class="grid" d="M400 0V560"/>
+    <path class="grid" d="M480 0V560"/>
+    <path class="grid" d="M560 0V560"/>
+    <path class="grid" d="M640 0V560"/>
+    <path class="grid" d="M720 0V560"/>
+    <path class="grid" d="M800 0V560"/>
+    <path class="grid" d="M880 0V560"/>
+    <path class="grid" d="M960 0V560"/>
+    <path class="grid" d="M1040 0V560"/>
+    <path class="grid" d="M1120 0V560"/>
+
+    <path class="grid" d="M0 80H1200"/>
+    <path class="grid" d="M0 160H1200"/>
+    <path class="grid" d="M0 240H1200"/>
+    <path class="grid" d="M0 320H1200"/>
+    <path class="grid" d="M0 400H1200"/>
+    <path class="grid" d="M0 480H1200"/>
+  </g>
+
+  <!-- title -->
+  <text x="72" y="96" class="muted" font-size="15">github://poetaignacio/profile</text>
+  <text x="72" y="150" class="main" font-size="42">Giuliano Ignacio Poeta</text>
+  <text x="76" y="188" class="soft" font-size="18">software engineer · systems · tooling</text>
+
+  <path class="accent" d="M76 218H488"/>
+
+  <!-- ascii block -->
+  <g font-size="17">
+    <text x="76" y="270" class="soft">┌───────────────────────────────┐</text>
+    <text x="76" y="300" class="soft">│ build small things carefully&#xA0;&#xA0;│</text>
+    <text x="76" y="330" class="soft">│ design before the surface&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;│</text>
+    <text x="76" y="360" class="soft">│ ship tools, not decoration&#xA0;&#xA0;&#xA0;&#xA0;│</text>
+    <text x="76" y="390" class="soft">└───────────────────────────────┘</text>
+  </g>
+
+  <!-- right side abstract system map -->
+  <g transform="translate(620 95)">
+    <path class="thin" d="M0 170H360"/>
+    <path class="thin" d="M120 50V300"/>
+    <path class="thin" d="M250 20V330"/>
+
+    <circle cx="120" cy="170" r="7" fill="#e8edf7"/>
+    <circle cx="250" cy="170" r="7" fill="#e8edf7"/>
+    <circle cx="360" cy="170" r="7" fill="#9db7ff"/>
+
+    <path class="accent" d="M120 170C160 95 210 95 250 170"/>
+    <path class="accent" d="M250 170C285 235 325 235 360 170"/>
+    <path class="line" d="M120 170C155 245 215 245 250 170"/>
+
+    <text x="84" y="40" class="muted" font-size="14">input</text>
+    <text x="207" y="18" class="muted" font-size="14">model</text>
+    <text x="332" y="152" class="muted" font-size="14">output</text>
+
+    <text x="-4" y="360" class="soft" font-size="15">
+      not a badge wall. one artifact. one signal.
+    </text>
+  </g>
+
+  <!-- bottom annotation -->
+  <text x="72" y="500" class="muted" font-size="14">
+    / README.md renders this SVG as the interface, not as decoration.
+  </text>
+</svg>
